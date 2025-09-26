@@ -1,4 +1,7 @@
 streamlit
+tensorflow
 numpy
 pillow
-tensorflow
+plotly
+scikit-learn
+matplotlib
