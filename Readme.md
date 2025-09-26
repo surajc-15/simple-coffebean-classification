@@ -67,7 +67,6 @@ pip install -r requirements.txt
 ```sh
 python train_model.py
 ```
-
 - This will train the CNN and save `coffee_bean_classifier.h5` in your project folder.
 
 ### 6. Run the Streamlit Web App
@@ -75,7 +74,6 @@ python train_model.py
 ```sh
 streamlit run app.py
 ```
-
 - Open the provided local URL in your browser.
 - Upload a coffee bean image and view the predicted class and grade.
 
@@ -97,3 +95,4 @@ This project is for educational and non-commercial use. Please cite the reposito
 ## Acknowledgements
 
 - Built with [TensorFlow](https://www.tensorflow.org/), [Streamlit](https://streamlit.io/), [Pillow](https://python-pillow.org/), and [Plotly](https://plotly.com/python/).
+S
