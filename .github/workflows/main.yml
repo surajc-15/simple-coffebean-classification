@@ -5,6 +5,8 @@ on:
 jobs:
   job-1:
     runs-on: ubuntu-24.04
+    needs:
+      - job-4
     steps:
       - run: echo "A job consists of"
       - run: echo "one or more steps"
