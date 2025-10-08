@@ -1,0 +1,16 @@
+name: Event Detector
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  show-event:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show event info
+        run: |
+          echo "Triggered by: ${{ github.event_name }}"
+          echo "Branch: ${{ github.ref }}"
+          echo "Actor: ${{ github.actor }}"
